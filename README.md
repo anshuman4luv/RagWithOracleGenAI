@@ -4,6 +4,15 @@
 ## Introduction
 In this article, we'll explore how to create a Retrieval-Augmented Generation (RAG) model using Oracle Gen AI, llama index, Oracle Vector Database, and SentenceTransformerEmbeddings. This 21-line code will allow you to scrape through web pages, use llama index for indexing, Oracle Gen AI for question generation, and Qdrant for vector indexing.
 
+
+## Limited Availability
+
+OCI GenAI is in Limited Availability as of today when we are creating this repo.
+
+Customers can easily enter in the LA programs. To test these functionalities you need to enrol in the LA programs and install the proper versions of software libraries.
+
+Code and functionalities can change, as a result of changes and new features
+
 ## Prerequisites
 Before getting started, make sure you have the following installed:
 
@@ -18,14 +27,10 @@ Before getting started, make sure you have the following installed:
    pip install oci==2.112.1+preview.1.1649 llama-index qdrant-client sentence-transformers
    ```
 
-## Limited Availability
+## Loading data
 
-OCI GenAI is in Limited Availability.
-
-Customers can easily enter in the LA programs. To test these functionalities you need to enrol in the LA programs and install the proper versions of software libraries.
-
-Code and functionalities can change, as a result of changes and new features
-
+You need to create a sitemap.xml file where you can specify or list the webpages which you want to include in your RAG 
+Here we have used SentenceTransformerEmbeddings to create the embeddings but you can easily use any embeddings model . In the next blog we will show how easily you can use Oracle gen ai embeddings model.
 
 ## Entire code
 
