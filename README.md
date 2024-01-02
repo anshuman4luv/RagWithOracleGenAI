@@ -32,6 +32,10 @@ Before getting started, make sure you have the following installed:
 You need to create a sitemap.xml file where you can specify or list the webpages which you want to include in your RAG 
 Here we have used SentenceTransformerEmbeddings to create the embeddings but you can easily use any embeddings model . In the next blog we will show how easily you can use Oracle gen ai embeddings model.
 
+In this example we have used some Oracle documentaion pages and created a xml file for the same and have placed it in Oracle object storage. 
+
+sitemap used : https://objectstorage.eu-frankfurt-1.oraclecloud.com/n/frpj5kvxryk1/b/thisIsThePlace/o/combined.xml
+
 ## Entire code
 
    ```bash
