@@ -1,5 +1,5 @@
 
-# Creating a RAG (Retrieval-Augmented Generation) with Oracle Gen AI
+# Creating a RAG (Retrieval-Augmented Generation) with Oracle Gen AI in just 21 lines of code
 
 ## Introduction
 In this article, we'll explore how to create a Retrieval-Augmented Generation (RAG) model using Oracle Gen AI, llama index, Oracle Vector Database, and SentenceTransformerEmbeddings. This 21-line code will allow you to scrape through web pages, use llama index for indexing, Oracle Gen AI for question generation, and Qdrant for vector indexing.
