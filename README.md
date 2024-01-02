@@ -9,22 +9,22 @@ Before getting started, make sure you have the following installed:
 
 - Oracle Gen AI
 - llama index
-- Oracle Vector Database
+- qdrant client
 - SentenceTransformerEmbeddings
 
 ## Setting up the Environment
 1. Install the required packages:
    ```bash
-   pip install oracle-gen-ai llama-index qdrant-client
+   pip install oci==2.112.1+preview.1.1649 llama-index qdrant-client sentence-transformers
    ```
 
-## Prerequisites
-Before getting started, make sure you have the following installed:
+## Limited Availability
 
-- Oracle Gen AI
-- llama index
-- Oracle Vector Database
-- SentenceTransformerEmbeddings
+OCI GenAI is in Limited Availability.
+
+Customers can easily enter in the LA programs. To test these functionalities you need to enrol in the LA programs and install the proper versions of software libraries.
+
+Code and functionalities can change, as a result of changes and new features
 
 
 ## Entire code
