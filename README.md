@@ -1,15 +1,15 @@
 
-# Creating a RAG (Retrieval-Augmented Generation) with Oracle Gen AI in just 21 lines of code
+# Creating a RAG (Retrieval-Augmented Generation) with Oracle Generative AI Service in just 21 lines of code
 
 ## Introduction
-In this article, we'll explore how to create a Retrieval-Augmented Generation (RAG) model using Oracle Gen AI, llama index, Qdrant Vector Database, and SentenceTransformerEmbeddings. This 21-line code will allow you to scrape through web pages, use llama index for indexing, Oracle Gen AI for question generation, and Qdrant for vector indexing.
+In this article, we'll explore how to create a Retrieval-Augmented Generation (RAG) model using Oracle Gen AI, llama index, Qdrant Vector Database, and SentenceTransformerEmbeddings. This 21-line code will allow you to scrape through web pages, use llama index for indexing, Oracle Generative AI Service for question generation, and Qdrant for vector indexing.
 
 <img src="./rag.svg">
 </img>
 
 ## Limited Availability
 
-OCI GenAI is in Limited Availability as of today when we are creating this repo.
+Oracle Generative AI Service is in Limited Availability as of today when we are creating this repo.
 
 Customers can easily enter in the LA programs. To test these functionalities you need to enrol in the LA programs and install the proper versions of software libraries.
 
@@ -18,7 +18,7 @@ Code and functionalities can change, as a result of changes and new features
 ## Prerequisites
 Before getting started, make sure you have the following installed:
 
-- Oracle Gen AI
+- Oracle Generative AI Service
 - llama index
 - qdrant client
 - SentenceTransformerEmbeddings
@@ -31,10 +31,10 @@ Before getting started, make sure you have the following installed:
 
 ## Loading data
 
-You need to create a sitemap.xml file where you can specify or list the webpages which you want to include in your RAG 
-Here we have used SentenceTransformerEmbeddings to create the embeddings but you can easily use any embeddings model . In the next blog we will show how easily you can use Oracle gen ai embeddings model.
+You need to create a sitemap.xml file where you can specify or list the webpages which you want to include in your RAG. 
+Here we have used SentenceTransformerEmbeddings to create the embeddings but you can easily use any embeddings model . In the next blog we will show how easily you can use Oracle Generative AI Service embeddings model.
 
-In this example we have used some Oracle documentaion pages and created a xml file for the same and have placed it in Oracle object storage. 
+In this example we have used some Oracle documentation pages and created a xml file for the same and have placed it in Oracle object storage. 
 
 sitemap used : https://objectstorage.eu-frankfurt-1.oraclecloud.com/n/frpj5kvxryk1/b/thisIsThePlace/o/combined.xml
 
@@ -68,7 +68,7 @@ print(response)
 
 ## Conclusion
 
-In this article, we've covered the process of creating a RAG model using Oracle Gen AI, llama index, Qdrant, and SentenceTransformerEmbeddings. Feel free to experiment with different web pages and datasets to enhance the capabilities of your model.
+In this article, we've covered the process of creating a RAG model using Oracle Generative AI Service, llama index, Qdrant, and SentenceTransformerEmbeddings. Feel free to experiment with different web pages and datasets to enhance the capabilities of your model.
 
 In a future blog post, we'll explore how to integrate Oracle Vector Database and Oracle Gen AI embeddings model into this RAG setup.
 
