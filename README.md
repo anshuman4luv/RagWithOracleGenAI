@@ -4,7 +4,7 @@
 ## Introduction
 In this article, we'll explore how to create a Retrieval-Augmented Generation (RAG) model using Oracle Gen AI, llama index, Qdrant Vector Database, and SentenceTransformerEmbeddings. This 21-line code will allow you to scrape through web pages, use llama index for indexing, Oracle Generative AI Service for question generation, and Qdrant for vector indexing.
 
-<img src="./rag.svg">
+<img src="./RagArchitecture.svg">
 </img>
 
 ## Limited Availability
